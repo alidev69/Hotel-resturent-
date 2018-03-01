@@ -1,0 +1,147 @@
+﻿@using ProjectMarriott.Models.HotelViewModels;
+@model ProjectMarriott.Models.HotelViewModels.ReservationModel
+
+
+    <div class="internal-pages trans-header sticky booking-page">
+
+        <!-- Internal Page Header -->
+        <div class="internal-page-title about-page">
+            <ol class="breadcrumb">
+                <!-- Internal Page Breadcrumb -->
+                <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
+                <li class="active">Customer History</li>
+            </ol>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="invoice-title">
+                        <h2>Invoice</h2><h3 class="pull-right">Booking ID # @Model.BookingID</h3>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <address>
+                                <strong>Billed To:</strong><br>
+                                @Model.CustomerDetails.FirstName<br>
+                                @Model.CustomerDetails.Address.AddressLine1<br>
+                                @Model.CustomerDetails.Address.AddressLine2<br>
+                                @Model.CustomerDetails.Address.City<br>
+                                @Model.CustomerDetails.Address.State<br>
+                                @Model.CustomerDetails.Address.ZipCode<br>
+                            </address>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <strong>Checkin Date:</strong><br>
+                            @Model.CheckinDate<br>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <strong>Checkout Date:</strong><br>
+                            @Model.CheckoutDate<br>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <strong>Number of children:</strong><br>
+                            @Model.NumberOfChildren<br>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <strong>Number of Adults:</strong><br>
+                            @Model.NumberOfChildren<br>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <strong>Booking Date:</strong><br>
+                            @Model.BookingDate<br>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <address>
+                                <strong>Payment Method:</strong><br>
+                                Visa ending **** XXXX<br>
+                                @Model.CustomerDetails.EmailAddress
+                            </address>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title"><strong>Order summary</strong></h3>
+                        </div>
+                        <div class="panel-body">
+                            <div class="table-responsive" 
+                                 style="background-color: black">
+                                <table class="table table-condensed">
+                                    <thead>
+                                        <tr>
+                                            <td><strong>Room Type</strong></td>
+                                            <td class="text-center"><strong>Price</strong></td>
+                                            <td class="text-center"><strong>Number of Rooms</strong></td>
+                                            <td class="text-right"><strong>Total</strong></td>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <!-- foreach ($order->lineItems as $line) or some such thing here -->
+                                        @foreach (var roomModel in Model.RoomDetails)
+    {
+                                    <tr>
+                                        <td>@roomModel.RoomType</td>
+                                        <td class="text-center">$@roomModel.RoomTariff</td>
+                                        <td class="text-center">1</td>
+                                        <td class="text-right">$@roomModel.RoomTariff</td>
+                                    </tr>
+}
+
+
+
+                                        <tr>
+                                            <td class="thick-line"></td>
+                                            <td class="thick-line"></td>
+                                            <td class="thick-line text-center"><strong>Subtotal</strong></td>
+                                            <td class="thick-line text-right">$@Model.TotalCost</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td class="thick-line"></td>
+                                            <td class="thick-line"></td>
+                                            <td class="thick-line text-center"><strong>Tax</strong></td>
+                                            <td class="thick-line text-right">$15</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td class="no-line"></td>
+                                            <td class="no-line"></td>
+                                            <td class="no-line text-center"><strong>Total</strong></td>
+                                            <td class="no-line text-right">$@Model.TotalCost</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+
+

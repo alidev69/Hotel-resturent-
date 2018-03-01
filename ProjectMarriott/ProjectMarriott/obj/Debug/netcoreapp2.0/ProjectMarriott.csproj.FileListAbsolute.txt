@@ -1,0 +1,48 @@
+C:\Users\Neha Pednekar\source\repos\ProjectMarriott\ProjectMarriott\bin\Debug\netcoreapp2.0\ProjectMarriott.deps.json
+C:\Users\Neha Pednekar\source\repos\ProjectMarriott\ProjectMarriott\bin\Debug\netcoreapp2.0\ProjectMarriott.runtimeconfig.json
+C:\Users\Neha Pednekar\source\repos\ProjectMarriott\ProjectMarriott\bin\Debug\netcoreapp2.0\ProjectMarriott.runtimeconfig.dev.json
+C:\Users\Neha Pednekar\source\repos\ProjectMarriott\ProjectMarriott\bin\Debug\netcoreapp2.0\ProjectMarriott.dll
+C:\Users\Neha Pednekar\source\repos\ProjectMarriott\ProjectMarriott\bin\Debug\netcoreapp2.0\ProjectMarriott.pdb
+C:\Users\Neha Pednekar\source\repos\ProjectMarriott\ProjectMarriott\obj\Debug\netcoreapp2.0\ProjectMarriott.csprojResolveAssemblyReference.cache
+C:\Users\Neha Pednekar\source\repos\ProjectMarriott\ProjectMarriott\obj\Debug\netcoreapp2.0\ProjectMarriott.csproj.CoreCompileInputs.cache
+C:\Users\Neha Pednekar\source\repos\ProjectMarriott\ProjectMarriott\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\Neha Pednekar\source\repos\ProjectMarriott\ProjectMarriott\obj\Debug\netcoreapp2.0\ProjectMarriott.AssemblyInfoInputs.cache
+C:\Users\Neha Pednekar\source\repos\ProjectMarriott\ProjectMarriott\obj\Debug\netcoreapp2.0\ProjectMarriott.AssemblyInfo.cs
+C:\Users\Neha Pednekar\source\repos\ProjectMarriott\ProjectMarriott\obj\Debug\netcoreapp2.0\ProjectMarriott.dll
+C:\Users\Neha Pednekar\source\repos\ProjectMarriott\ProjectMarriott\obj\Debug\netcoreapp2.0\ProjectMarriott.pdb
+C:\Users\Neha Pednekar\source\repos\Web Dev spring 2018\Web-Tools-2018\ProjectMarriott\ProjectMarriott\bin\Debug\netcoreapp2.0\ProjectMarriott.deps.json
+C:\Users\Neha Pednekar\source\repos\Web Dev spring 2018\Web-Tools-2018\ProjectMarriott\ProjectMarriott\bin\Debug\netcoreapp2.0\ProjectMarriott.runtimeconfig.json
+C:\Users\Neha Pednekar\source\repos\Web Dev spring 2018\Web-Tools-2018\ProjectMarriott\ProjectMarriott\bin\Debug\netcoreapp2.0\ProjectMarriott.runtimeconfig.dev.json
+C:\Users\Neha Pednekar\source\repos\Web Dev spring 2018\Web-Tools-2018\ProjectMarriott\ProjectMarriott\bin\Debug\netcoreapp2.0\ProjectMarriott.dll
+C:\Users\Neha Pednekar\source\repos\Web Dev spring 2018\Web-Tools-2018\ProjectMarriott\ProjectMarriott\bin\Debug\netcoreapp2.0\ProjectMarriott.pdb
+C:\Users\Neha Pednekar\source\repos\Web Dev spring 2018\Web-Tools-2018\ProjectMarriott\ProjectMarriott\obj\Debug\netcoreapp2.0\ProjectMarriott.csproj.CoreCompileInputs.cache
+C:\Users\Neha Pednekar\source\repos\Web Dev spring 2018\Web-Tools-2018\ProjectMarriott\ProjectMarriott\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\Neha Pednekar\source\repos\Web Dev spring 2018\Web-Tools-2018\ProjectMarriott\ProjectMarriott\obj\Debug\netcoreapp2.0\ProjectMarriott.AssemblyInfoInputs.cache
+C:\Users\Neha Pednekar\source\repos\Web Dev spring 2018\Web-Tools-2018\ProjectMarriott\ProjectMarriott\obj\Debug\netcoreapp2.0\ProjectMarriott.AssemblyInfo.cs
+C:\Users\Neha Pednekar\source\repos\Web Dev spring 2018\Web-Tools-2018\ProjectMarriott\ProjectMarriott\obj\Debug\netcoreapp2.0\ProjectMarriott.dll
+C:\Users\Neha Pednekar\source\repos\Web Dev spring 2018\Web-Tools-2018\ProjectMarriott\ProjectMarriott\obj\Debug\netcoreapp2.0\ProjectMarriott.pdb
+C:\Users\Neha Pednekar\source\repos\Web Dev spring 2018\Web-Tools-2018\ProjectMarriott\ProjectMarriott\obj\Debug\netcoreapp2.0\ProjectMarriott.csprojResolveAssemblyReference.cache
+C:\Users\Sneha\Web Tools Spring 2018\Web-Tools-2018\ProjectMarriott\ProjectMarriott\bin\Debug\netcoreapp2.0\ProjectMarriott.deps.json
+C:\Users\Sneha\Web Tools Spring 2018\Web-Tools-2018\ProjectMarriott\ProjectMarriott\bin\Debug\netcoreapp2.0\ProjectMarriott.runtimeconfig.json
+C:\Users\Sneha\Web Tools Spring 2018\Web-Tools-2018\ProjectMarriott\ProjectMarriott\bin\Debug\netcoreapp2.0\ProjectMarriott.runtimeconfig.dev.json
+C:\Users\Sneha\Web Tools Spring 2018\Web-Tools-2018\ProjectMarriott\ProjectMarriott\bin\Debug\netcoreapp2.0\ProjectMarriott.dll
+C:\Users\Sneha\Web Tools Spring 2018\Web-Tools-2018\ProjectMarriott\ProjectMarriott\bin\Debug\netcoreapp2.0\ProjectMarriott.pdb
+C:\Users\Sneha\Web Tools Spring 2018\Web-Tools-2018\ProjectMarriott\ProjectMarriott\obj\Debug\netcoreapp2.0\ProjectMarriott.csprojResolveAssemblyReference.cache
+C:\Users\Sneha\Web Tools Spring 2018\Web-Tools-2018\ProjectMarriott\ProjectMarriott\obj\Debug\netcoreapp2.0\ProjectMarriott.csproj.CoreCompileInputs.cache
+C:\Users\Sneha\Web Tools Spring 2018\Web-Tools-2018\ProjectMarriott\ProjectMarriott\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\Sneha\Web Tools Spring 2018\Web-Tools-2018\ProjectMarriott\ProjectMarriott\obj\Debug\netcoreapp2.0\ProjectMarriott.AssemblyInfoInputs.cache
+C:\Users\Sneha\Web Tools Spring 2018\Web-Tools-2018\ProjectMarriott\ProjectMarriott\obj\Debug\netcoreapp2.0\ProjectMarriott.AssemblyInfo.cs
+C:\Users\Sneha\Web Tools Spring 2018\Web-Tools-2018\ProjectMarriott\ProjectMarriott\obj\Debug\netcoreapp2.0\ProjectMarriott.dll
+C:\Users\Sneha\Web Tools Spring 2018\Web-Tools-2018\ProjectMarriott\ProjectMarriott\obj\Debug\netcoreapp2.0\ProjectMarriott.pdb
+C:\Users\Sneha\Hotel_Site_Angular\Web-Tools-2018\ProjectMarriott\ProjectMarriott\bin\Debug\netcoreapp2.0\ProjectMarriott.deps.json
+C:\Users\Sneha\Hotel_Site_Angular\Web-Tools-2018\ProjectMarriott\ProjectMarriott\bin\Debug\netcoreapp2.0\ProjectMarriott.runtimeconfig.json
+C:\Users\Sneha\Hotel_Site_Angular\Web-Tools-2018\ProjectMarriott\ProjectMarriott\bin\Debug\netcoreapp2.0\ProjectMarriott.runtimeconfig.dev.json
+C:\Users\Sneha\Hotel_Site_Angular\Web-Tools-2018\ProjectMarriott\ProjectMarriott\bin\Debug\netcoreapp2.0\ProjectMarriott.dll
+C:\Users\Sneha\Hotel_Site_Angular\Web-Tools-2018\ProjectMarriott\ProjectMarriott\bin\Debug\netcoreapp2.0\ProjectMarriott.pdb
+C:\Users\Sneha\Hotel_Site_Angular\Web-Tools-2018\ProjectMarriott\ProjectMarriott\obj\Debug\netcoreapp2.0\ProjectMarriott.csprojResolveAssemblyReference.cache
+C:\Users\Sneha\Hotel_Site_Angular\Web-Tools-2018\ProjectMarriott\ProjectMarriott\obj\Debug\netcoreapp2.0\ProjectMarriott.csproj.CoreCompileInputs.cache
+C:\Users\Sneha\Hotel_Site_Angular\Web-Tools-2018\ProjectMarriott\ProjectMarriott\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\Sneha\Hotel_Site_Angular\Web-Tools-2018\ProjectMarriott\ProjectMarriott\obj\Debug\netcoreapp2.0\ProjectMarriott.AssemblyInfoInputs.cache
+C:\Users\Sneha\Hotel_Site_Angular\Web-Tools-2018\ProjectMarriott\ProjectMarriott\obj\Debug\netcoreapp2.0\ProjectMarriott.AssemblyInfo.cs
+C:\Users\Sneha\Hotel_Site_Angular\Web-Tools-2018\ProjectMarriott\ProjectMarriott\obj\Debug\netcoreapp2.0\ProjectMarriott.dll
+C:\Users\Sneha\Hotel_Site_Angular\Web-Tools-2018\ProjectMarriott\ProjectMarriott\obj\Debug\netcoreapp2.0\ProjectMarriott.pdb

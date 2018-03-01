@@ -1,0 +1,17 @@
+﻿#mariottHeader {
+    /*margin-top: 10px;*/
+    margin-bottom: 0px;
+    /*background-color: #222;*/
+}
+
+#mariottHeader h2{
+    font-size: 40px;
+}
+
+    #mariottHeader h4 {
+        font-size: 30px;
+    }
+
+    #mariottHeader .subtitle{
+        color: white;
+    }
