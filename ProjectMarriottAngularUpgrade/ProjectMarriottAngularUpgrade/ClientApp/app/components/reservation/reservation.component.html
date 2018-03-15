@@ -1,0 +1,54 @@
+@using ProjectMarriott.Models.HotelViewModels;
+@model ReservationModel;
+
+<div class="internal-pages trans-header sticky booking-page">
+    <!-- Internal Page Header -->
+    <div class="internal-page-title about-page">
+        <ol class="breadcrumb">
+            <!-- Internal Page Breadcrumb -->
+            <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
+            <li class="active">Book Rooms</li>
+        </ol>
+    </div>
+    <!-- End of Internal Page Header -->
+    <!-- Booking Page Container -->
+    <div id="booking-page-content">
+        <div class="booking-container container">
+            <div class="heading-box">
+                <h2>Book <span>Now</span></h2>
+            </div>
+            <div class="main-booking-description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur alias minus,
+                commodi eligendi reprehenderit ea illum placeat recusandae architecto magnam aspernatur
+                doloremque, odio maxime ducimus voluptates eveniet cumque assumenda delectus? Quisquam
+                nobis, eligendi. Earum dolore culpa tenetur qui at, voluptas repellendus quisquam minima
+                incidunt. Asperiores.
+            </div>
+
+            <!-- Angular Hotel Booking Form-->
+
+            
+            
+        </div>
+    </div>
+</div>
+
+
+<!--<script type="text/javascript">$(document).ready(function () {
+            $('#resSummarySubmit').click(function (e) {
+                e.preventDefault();
+                // recommended in SO, does not appear to be required
+                $('#reservationSummaryForm').attr('action', '/Hotel/ReservationSummary');
+                $('#reservationSummaryForm').submit();
+
+
+                var lastActiveTab = ($('#ActiveTab').val() !== '') ? $('#ActiveTab').val() : 'booking-reservation';
+                $('#booking-tabs a[href="#' + lastActiveTab + '"]').tab('show');
+                $("#booking-tabs a").click(function () {
+                    $('#ActiveTab').val($(this).attr("href").replace("#", ""));
+                });
+
+            });
+
+
+        });</script>-->
