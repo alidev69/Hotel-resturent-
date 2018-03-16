@@ -1,33 +1,33 @@
-<form class="form-inline" id="reservation-form" method="post" #reservation-form ="ngForm"
+<form class="form-inline" id="reservation-form" method="post" 
       action="">
     <div class="col-lg-2 form-group" style="margin-top: 10px;">
         <label for="CheckinDate">Check In</label>
         <input id="CheckinDate" type="text" class="form-control datepicker" style="width:100%" required
-               [(ngModel)]="model.checkinDate" />
+                />
     </div>
     <div class="col-lg-2 form-group" style="margin-top: 10px;">
         <label for="CheckinDate">Check Out</label>
         <input id="CheckinDate" type="text" class="form-control datepicker" style="width:100%" required
-               [(ngModel)]="model.checkoutDate" />
+                />
     </div>
     <div class="col-lg-2 form-group" style="margin-top: 10px;">
         <label for="NumberOfAdults">Number of Adults</label>
         <input id="NumberOfAdults" type="number" class="form-control" min="1" max="4" style="width:100%"
-               required [(ngModel)]="model.numberOfAdults" />
+               required  />
     </div>
     <div class="col-lg-2 form-group" style="margin-top: 10px;">
         <label for="NumberOfChildren">Number of Children</label>
         <input id="NumberOfChildren" type="number" class="form-control" min="1" max="4" style="width:100%"
-               required [(ngModel)]="model.numberOfChildren" />
+               required  />
     </div>
     <div class="col-lg-2 form-group" style="margin-top: 10px;">
         <label for="NumberOfRooms">Number of Rooms</label>
         <input id="NumberOfRooms" type="number" class="form-control" min="1" max="3" style="width:100%"
-               required [(ngModel)]="model.numberOfRooms" />
+               required  />
     </div>
 
     <div class="col-lg-12 form-group" style="margin-top: 10px; margin-bottom: 10px; align-self: center">
         <input id="" type="submit" style="letter-spacing: 2px" value="Book Now"
-               class="btn btn-default" (click)="onClickSubmit()" />
+               class="btn btn-default"  />
     </div>
 </form>

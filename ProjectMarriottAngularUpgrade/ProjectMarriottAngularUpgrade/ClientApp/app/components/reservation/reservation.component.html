@@ -1,54 +1,48 @@
-@using ProjectMarriott.Models.HotelViewModels;
-@model ReservationModel;
-
-<div class="internal-pages trans-header sticky booking-page">
-    <!-- Internal Page Header -->
-    <div class="internal-page-title about-page">
-        <ol class="breadcrumb">
-            <!-- Internal Page Breadcrumb -->
-            <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
-            <li class="active">Book Rooms</li>
-        </ol>
+<div class="input-daterange booking-dates">
+    <div class="col-lg-2 form-group" style="margin-top: 10px;">
+        <label for="CheckinDate">Check In</label>
+        <input id="CheckinDate" type="text" class="form-control datepicker" style="width:100%" required 
+                ng-model="model.checkinDate"/>
     </div>
-    <!-- End of Internal Page Header -->
-    <!-- Booking Page Container -->
-    <div id="booking-page-content">
-        <div class="booking-container container">
-            <div class="heading-box">
-                <h2>Book <span>Now</span></h2>
-            </div>
-            <div class="main-booking-description">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur alias minus,
-                commodi eligendi reprehenderit ea illum placeat recusandae architecto magnam aspernatur
-                doloremque, odio maxime ducimus voluptates eveniet cumque assumenda delectus? Quisquam
-                nobis, eligendi. Earum dolore culpa tenetur qui at, voluptas repellendus quisquam minima
-                incidunt. Asperiores.
-            </div>
+    <div class="col-lg-2 form-group" style="margin-top: 10px;">
+        <label for="CheckoutDate">Check Out</label>
+        <input id="CheckoutDate" type="text" class="form-control datepicker" style="width:100%" required 
+               ng-model="model.checkinDate"/>
+    </div>
+    <div class="col-lg-2 form-group" style="margin-top: 10px;">
+        <label for="NumberOfAdults">Number of Adults</label>
+        <input id="NumberOfAdults" type="number" class="form-control" min="1" max="4" style="width:100%"
+               required ng-model="model.numberOfAdults" />
+    </div>
+    <div class="col-lg-2 form-group" style="margin-top: 10px;">
+        <label for="NumberOfChildren">Number of Children</label>
+        <input id="NumberOfChildren" type="number" class="form-control" min="1" max="4" style="width:100%"
+               required ng-model="model.numberOfChildren" />
+    </div>
+    <div class="col-lg-2 form-group" style="margin-top: 10px;">
+        <label for="NumberOfRooms">Number of Rooms</label>
+        <input id="NumberOfRooms" type="number" class="form-control" min="1" max="3" style="width:100%"
+               required ng-model="model.numberOfRooms" />
+    </div>
 
-            <!-- Angular Hotel Booking Form-->
+    <div class="col-lg-12 form-group" style="margin-top: 10px; margin-bottom: 10px; align-self: center">
+        <input id="" type="submit" style="letter-spacing: 2px" value="Book Now"
+               class="btn btn-default" />
+    </div>
+    <div class="col-lg-12 form-group">
+        <select id="Id" #Id="ngModel" class="hideLabel form-control" [(ngModel)]="roomType.Name" name="Name">
+            <option selected="" value=""></option>
+            <option [ngValue]="roomType.Name" *ngFor="let roomType of roomList">
+                {{roomType.Name}}
+            </option>
+        </select>
+    </div>
+   
 
-            
-            
-        </div>
+
+
+    <div class="col-md-12" style="margin-top: 30px; text-align: center">
+        <input type="submit" id="next1" style="letter-spacing: 2px"
+               class="btn btn-default" value="Submit" (click)="onSubmit()">
     </div>
 </div>
-
-
-<!--<script type="text/javascript">$(document).ready(function () {
-            $('#resSummarySubmit').click(function (e) {
-                e.preventDefault();
-                // recommended in SO, does not appear to be required
-                $('#reservationSummaryForm').attr('action', '/Hotel/ReservationSummary');
-                $('#reservationSummaryForm').submit();
-
-
-                var lastActiveTab = ($('#ActiveTab').val() !== '') ? $('#ActiveTab').val() : 'booking-reservation';
-                $('#booking-tabs a[href="#' + lastActiveTab + '"]').tab('show');
-                $("#booking-tabs a").click(function () {
-                    $('#ActiveTab').val($(this).attr("href").replace("#", ""));
-                });
-
-            });
-
-
-        });</script>-->
